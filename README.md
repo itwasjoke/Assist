@@ -20,9 +20,10 @@ If the user wants to order one of the studio's services, then the site will firs
 The page with the order displays basic information about the service and the client, as well as the deadline by which the work will be completed. The term differs for each service and is compiled taking into account the weekend. The user leaves his comment on the order and sends it to the site. After that, on the page with orders, the user can track the status of the order.
 
 <p align="center">
-<img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot4.png?raw=true" style="width: 60%">
+<img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot4.png?raw=true" style="width: 80%">
 </p>
   
+ ## Managment
 If an employee of the studio visits the site, then the "management" menu item appears, where the work of the studio takes place.
 If an ordinary employee enters the page, then only the "Work on orders" item will be available to him in the window. There you can change the current status of all received orders. If the head of the studio comes in, "Studio Management" and "Service Editing" become open. He can change information about the services and the studio, add new employees, change their positions and exclude them from the studio. If the administrator is logged in - the person who owns the entire site - then the item "Administration of studios" appears. The creation of new studios is available there, as well as the change of leaders.
 
