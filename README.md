@@ -84,7 +84,7 @@ function dataFromDb($sql){
 A file with these and other functions, as well as a config.php file, is added to the top of every page on the site.
 ### Realization
 Here is a code snippet where the above functions work.
-```
+```PHP
 if (exist_data('order')){
 
   $user = get_user_info(get_current_user_id());
