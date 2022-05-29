@@ -41,8 +41,23 @@ MySql database was designed to create the site.
 
 Of the development features, one can note the writing of a separate file in PHP, where all sorts of useful functions that I used in the process of work were registered.
 
+## My functions 
+I created functions for more convenient work with the database. This function demonstrates inserting data into a database.
 ```PHP
-$data='';
+function insertData($data, $table){
+    $keys=array();
+    $elements=array();
+    foreach ($data as $key => $value) {
+        $keys[]=$key;
+        $elements[]=$value;
+    }
+
+    $keys_string=implode(', ', $keys);
+    $elem_string='"'.implode('", "', $elements).'"';
+
+    $sql="INSERT IGNORE INTO ".$table." (".$keys_string.") VALUES (".$elem_string.")";
+    $in=mysqli_query($GLOBALS['con'], $sql);
+}
 ```
 
 ## Publication
