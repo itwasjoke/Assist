@@ -5,7 +5,7 @@ This is a site created using server-side programming.
 </p>
 
 ## The theme of the site and the logic of work for client
-Flicker is a site for ordering various services for creating films and videos. On the main page, the user sees a landing page from which he can go to the list of all services. There he sees the names and descriptions of all the services that the various studios provide. Information about these studios can be seen on a separate page. All descriptions, addresses and lists of employees will be displayed there. 
+Flicker is a site for ordering various services **for creating films and videos**. On the main page, the user sees a landing page from which he can go to the list of all services. There he sees the names and descriptions of all the services that the various studios provide. Information about these studios can be seen on a separate page. All descriptions, addresses and lists of employees will be displayed there. 
 
 <p align="center">
 <img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot2.png?raw=true" style="width: 60%">
@@ -23,7 +23,7 @@ The page with the order displays basic information about the service and the cli
 <img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot4.png?raw=true" style="width: 80%">
 </p>
   
- ## Managment
+ ## Managment for employees
 If an employee of the studio visits the site, then the "management" menu item appears, where the work of the studio takes place.
 If an ordinary employee enters the page, then only the "Work on orders" item will be available to him in the window. There you can change the current status of all received orders. If the head of the studio comes in, "Studio Management" and "Service Editing" become open. He can change information about the services and the studio, add new employees, change their positions and exclude them from the studio. If the administrator is logged in - the person who owns the entire site - then the item "Administration of studios" appears. The creation of new studios is available there, as well as the change of leaders.
 
@@ -32,6 +32,7 @@ If an ordinary employee enters the page, then only the "Work on orders" item wil
 <img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot6.png?raw=true" style="width: 60%; padding: 15px">
 </p>
   
+## Development
 MySql database was designed to create the site.
 
 <p align="center">
