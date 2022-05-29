@@ -9,7 +9,7 @@ If an ordinary employee enters the page, then only the "Work on orders" item wil
 
 MySql database was designed to create the site.
 
-<img src="http://u99924i2.beget.tech/img/db.png">
+<img src="https://github.com/itwasjoke/Assist/blob/main/img/db.png?raw=true">
 
 Of the development features, one can note the writing of a separate file in PHP, where all sorts of useful functions that I used in the process of work were registered. They have simplified the job of creating a website.
 The site was transferred to the hosting along with the database. The link to the site will be in the description.
