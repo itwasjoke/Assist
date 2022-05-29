@@ -1,0 +1,538 @@
+
+
+h1{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin: 10px 0 0 20px;
+    /*text-align: center;*/
+}
+
+p{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    margin: 2px 0px;
+
+}
+h2{
+    font-size: 35px;
+    color: #8f6413;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+h3{
+    font-size: 22px;
+    color: #8f6413;
+    font-family: "Trebuchet MS", sans-serif;
+    /*text-align: center;*/
+    padding: 2px 20px;
+}
+.control_lab{
+        font-size: 22px;
+    color: #42312a;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    padding: 2px 20px;
+}
+body{
+    
+    /*background: linear-gradient(to bottom, rgba(231, 158, 90, 1) 0%, rgba(255, 212, 111, 0) 20%);*/
+    margin: 0px;
+    
+    font-family: "Trebuchet MS", sans-serif;
+}
+.bodyc{
+    margin: 0px 7%;
+}
+
+.cost{
+    font-size: 15px;
+    color: #8f6413;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: right;
+    margin: 0;
+    /*padding: 2px 20px; */
+}
+.st_type{
+        font-size: 14px;
+    color: #ff8d36;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: right;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.heade{
+    background: linear-gradient(to right, #5A95E8,#6F85FF);
+    width: 100%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    height: 39px;
+    /*border-bottom: 10px solid #535AC2;*/
+}
+
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    padding: 7px 20px 2px 20px;
+}
+.block {
+    font-size: 0.8vw;
+    border-radius: 0.3em;
+    /*box-shadow: 0 0 4px rgba(0,0,0,0.2);*/
+    padding: .7em;
+    background: white;
+
+}
+
+/*menu*/
+
+.menu {
+    float: right;
+    text-align: right;
+    display: grid;
+    margin-top: 3px;
+    margin-right: 20px;
+
+}
+.menu ul{
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 20px;
+
+    /*    background: linear-gradient(to bottom right,
+            rgb(185,208,245,1), rgb(184,162,245,0));*/
+}
+.menu a {
+    text-decoration: none;
+    font-size: 10px;
+
+    text-transform: uppercase;
+    color: white;
+}
+.menu a:link{
+    color: white;
+}
+.menu a:hover{
+    color: #A5CAFF;
+}
+.menu ul {
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+.menu li {
+    /*    background: linear-gradient(to bottom right,
+            rgb(66,117,245,0.4), rgb(77,154,254,0.4));*/
+    display: inline-block;
+    padding: 4px 7px 4px 7px;
+
+}
+
+.box {
+    /*position:relative;*/
+    /*height: 100vh;*/
+    margin-top: 80px;
+}
+.btn {
+    border: none;
+    border: 0;
+    outline: none;
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    z-index:500;
+    display: inline-block;
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    
+    background: #00189d url('../img/plus.png') center center no-repeat;
+    background-size: cover;
+    
+    cursor: pointer;
+    border-radius: 50%;
+
+    /*box-shadow: 0 3px 20px rgb(0,0,0,0.25);*/
+}
+
+.fm > input {
+    outline:none;
+    border: 0;
+    /*border: solid 1px #DEF8FA;*/
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.2) ;
+    padding: 12px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-bottom: 15px;
+
+}
+
+
+.hide{
+    display: none;
+}
+
+
+
+.btn_create{
+    background: linear-gradient(to right, #e77a5a, #ffcb6f);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    outline:none;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3) ;
+    padding: 13px;
+    font-size: 15px;
+    width: 50%;
+    border-radius: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.btn_studio_edit{
+    background: linear-gradient(to right, #e77a5a, #ffcb6f);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    outline:none;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3) ;
+    padding: 11px;
+    font-size: 13px;
+    /*width: 50%;*/
+    border-radius: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.btn_change{
+    /*background: linear-gradient(to right, #5A95E8,#6F85FF);*/
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    outline:none;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3) ;
+    padding: 11px;
+    font-size: 10px;
+    width: 50%;
+    border-radius: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-top: 7px;
+}
+
+.regist_forms{
+    width: 40%;
+    margin: auto;
+}
+.regist_forms2{
+    width: 100%;
+    
+}
+
+.name_studio{
+    font-size: 26px;
+color: #ff8d36;
+font-family: "Trebuchet MS", sans-serif;
+margin: 10px 0px;
+}
+.zag_studio{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+color: #ff8d36;
+font-family: "Trebuchet MS", sans-serif;
+font-weight: bold;
+}
+.zag_service{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 17px;
+color: #8f6413;
+font-style: oblique;
+font-family: "Trebuchet MS", sans-serif;
+font-weight: bold;
+}
+.div_studio{
+    background: white;
+    box-shadow: 5px 4px 20px 1px rgba(0, 0, 0, 0.2);
+border-radius: 22px;
+padding: 20px;
+margin: 20px;
+}
+.div_emp{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    padding-top: 10px;
+}
+.emp_post{
+    color: gray;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 15px;
+}
+.art{
+    color: gray;
+    font-size: 10px;
+}
+hr{
+    border: 0;
+    color: #ff8d36;
+    background-color: #ff8d36;
+    width: 90%;
+    align: center;
+    height: 2px;
+}
+.div_service{
+    background: white;
+    box-shadow: 5px 4px 20px 1px rgba(0, 0, 0, 0.2);
+border-radius: 22px;
+padding: 20px;
+margin: 20px;
+}
+.div_service1{
+    background: white;
+    box-shadow: 5px 4px 20px 1px rgba(0, 0, 0, 0.2);
+border-radius: 22px;
+padding: 20px;
+margin: 20px;
+display: grid;
+grid-template-rows: 5fr 1fr;
+}
+
+.div_all_serv{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+.div_about_serv{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 70%;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.div_serv_cost{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.user_about{
+        font-size: 20px;
+    color: #8f6413;
+    font-family: "Trebuchet MS", sans-serif;
+    /*text-align: center;*/
+    padding: 2px 20px;
+    margin: 0;
+}
+.txt_comment{
+    margin-bottom: 20px;
+    outline:none;
+    border: 0;
+    /*border: solid 1px #DEF8FA;*/
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.2);
+    padding: 11px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-bottom: 15px;
+    height: 150px;
+}
+
+/* для элемента input c type="checkbox" */
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+  border-color: ##ffb3b3;
+}
+
+/* стили для активного чекбокса (при нажатии на него) */
+.custom-checkbox:not(:disabled):active+label::before {
+  background-color: #ffb3b3;
+  border-color: ##ffb3b3;
+}
+
+/* стили для чекбокса, находящегося в фокусе */
+.custom-checkbox:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox:focus:not(:checked)+label::before {
+  border-color: ##ffb3b3;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox:checked+label::before {
+  border-color: #ee4a0b;
+  background-color: #ee980b;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox:disabled+label::before {
+  background-color: #e9ecef;
+}
+.order_create{
+    padding: 20px 0px 60px 0px;
+}
+.btn_order{
+    background: linear-gradient(to right, #e77a5a, #ffcb6f);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    outline:none;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3) ;
+    padding: 11px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin: auto;
+}
+
+.control li a{
+font-size: 20px;
+color: #ff8d36;
+font-family: "Trebuchet MS", sans-serif;
+padding: 10px 0;
+}
+.control li{
+padding: 10px 0;
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
+
+select {
+/*A reset of styles, including removing the default dropdown arrow*/
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: inherit;
+  line-height: inherit;
+
+  /*Stack above custom arrow*/
+  z-index: 1;
+
+  /*Remove dropdown arrow in IE10 & IE11*/
+   /*@link https://www.filamentgroup.com/lab/select-css.html*/
+/*  &::-ms-expand {
+    display: none;
+  }*/
+
+  /*Remove focus outline, will add on alternate element*/
+  outline: none;
+}
+
+.select {
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+  position: relative;
+
+
+    grid-area: select;
+  
+
+  min-width: 15ch;
+  /*max-width: 30ch;*/
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px 2px rgba(0,0,0,0.2) ;
+  padding: 13px 0.9em;
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-family: "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  line-height: 1.1;
+
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+
+
+
+}
+
+select:focus + .focus {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 2px solid var(--select-focus);
+  border-radius: inherit;
+  border-color: #ff8d36;
+}
+
+.ots{
+    padding-bottom: 90px;
+}
+
+.ots1{
+    padding-bottom: 5px;
+}
+
+.div_user{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.div_user div{
+    width: 100%;
+}
+.edit_studio{
+    position: fixed;
+    bottom: 50px;
+}

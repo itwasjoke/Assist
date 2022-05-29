@@ -1,0 +1,157 @@
+.header{
+    /*position: fixed;*/
+    width: 100%;
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index:50;*/
+    padding-bottom: 20px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.name{
+    width: 100%;
+    font-size: 10px;
+    background: linear-gradient(to right, rgba(231, 158, 90, 0.2), rgba(255, 212, 111, 0.86));
+    text-align: right;
+    color: white;
+    padding-bottom: 1.8px;
+    padding-top: 1.8px;
+    padding-right: 7%;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.conteiner{
+    /*margin: 0px auto;*/
+    /*padding: 0px 10px;*/
+}
+/*.header:before{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top:0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: linear-gradient(to right, #5A95E8,#6F85FF);*/
+/*    z-index: 2;*/
+/*}*/
+.header_body{
+    padding: 43px 7%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background: linear-gradient(to right, #e7875a, #ffc26f);
+    z-index: 2;
+}
+.header_list{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.header_list li{
+    list-style: none;
+    margin: 0 0 0 20px;
+}
+.header_link{
+    color: #fff;
+    /*text-transform: uppercase;*/
+    font-size: 17px;
+    text-decoration: none;
+}
+.header_logo{
+    position: relative;
+    z-index: 3;
+}
+.header_logo h1{
+    flex: 0 0 60px;
+    margin: 10px;
+}
+.header_burger{
+    display: none;
+}
+.header_menu{}
+
+@media (max-width: 500px){
+    body.lock{
+        overflow: hidden;
+    }
+    .header_body{
+        height: 50px;
+
+    }
+    .header_logo{
+
+    }
+    .header_burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+    }
+    .header_burger:before,
+    .header_burger:after{
+        content: '';
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header_burger:before{
+        top:0;
+    }
+    .header_burger:after{
+        bottom: 0;
+
+    }
+    .header_burger span{
+        position: absolute;
+        background-color: white;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header_burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active span{
+        transform: scale(0);
+    }
+    .header_burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header_menu{
+        position: fixed;
+        top: -120%;
+        left: 0;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+        background-color: #A5CAFF;
+        padding: 60px 0 0 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header_menu.active{
+        top: 0;
+    }
+    .header_list{
+        display: block;
+    }
+    .header_list li{
+        margin: 0 0 20px 0;
+    }
+}
+
