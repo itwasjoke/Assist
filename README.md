@@ -83,6 +83,26 @@ function dataFromDb($sql){
 ```
 A file with these and other functions, as well as a config.php file, is added to the top of every page on the site.
 ### Realization
+Here is a code snippet where the above functions work.
+```
+if (exist_data('order')){
+
+  $user = get_user_info(get_current_user_id());
+  $id_serv=createData(['id'])['id'];
+  $sql="SELECT t.name as 'type', t.type_id, t.description, t.articul, t.implem, st.cost, s.name as 'studio' FROM types t
+  join studios_types st on st.type_id=t.id
+  join studios s on st.studio_id=s.id
+  where t.id=".$id_serv;
+  $serv=dataFromDb($sql);
+  $order_serv=array();
+  foreach ($serv as $item) {
+    foreach ($item as $key => $value) {
+      $order_serv[$key]=$value;
+    }
+  }
+...
+}
+```
 ## Publication
 The site was transferred to the hosting along with the database. Link: http://u99924i2.beget.tech
 
