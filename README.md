@@ -41,9 +41,9 @@ MySql database was designed to create the site.
 
 Of the development features, one can note the writing of a separate file in PHP, where all sorts of useful functions that I used in the process of work were registered.
 
-«`{PHP} {
+```PHP
 $data='';
-}«`
+```
 
 ## Publication
 The site was transferred to the hosting along with the database. Link: http://u99924i2.beget.tech
