@@ -1,8 +1,12 @@
 # Flicker
 This is a site created using server-side programming.
 
+<img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot1.png?raw=true" style="width: 50%">
+
 ## The theme of the site and the logic of work
 Flicker is a site for ordering various services for creating films and videos. On the main page, the user sees a landing page from which he can go to the list of all services. There he sees the names and descriptions of all the services that the various studios provide. Information about these studios can be seen on a separate page. All descriptions, addresses and lists of employees will be displayed there. 
+
+<img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot2.png?raw=true" style="width: 50%">
 
 If the user wants to order one of the studio's services, then the site will first offer to log in, which can also be done by going to the "authorization" page. On this page a user logs into his account or creates a new one, indicating his contact information. After a successful login, the order is available. The menu item "my orders" also appears. 
 
