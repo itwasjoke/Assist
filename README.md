@@ -4,7 +4,9 @@ This is a site created using server-side programming.
 <img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot1.png?raw=true" style="width: 60%; padding: 15px">
 </p>
 
-## The theme of the site and the logic of work for client
+## The theme of the site and the logic of work
+
+### Client side
 Flicker is a site for ordering various services **for creating films and videos**. On the main page, the user sees a landing page from which he can go to the list of all services. There he sees the names and descriptions of all the services that the various studios provide. Information about these studios can be seen on a separate page. All descriptions, addresses and lists of employees will be displayed there. 
 
 <p align="center">
@@ -23,7 +25,7 @@ The page with the order displays basic information about the service and the cli
 <img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot4.png?raw=true" style="width: 80%">
 </p>
   
- ## Managment for employees
+ ### Managment side
 If an employee of the studio visits the site, then the "management" menu item appears, where the work of the studio takes place.
 If an ordinary employee enters the page, then only the "Work on orders" item will be available to him in the window. There you can change the current status of all received orders. If the head of the studio comes in, "Studio Management" and "Service Editing" become open. He can change information about the services and the studio, add new employees, change their positions and exclude them from the studio. If the administrator is logged in - the person who owns the entire site - then the item "Administration of studios" appears. The creation of new studios is available there, as well as the change of leaders.
 
@@ -41,7 +43,7 @@ MySql database was designed to create the site.
 
 Of the development features, one can note the writing of a separate file in PHP, where all sorts of useful functions that I used in the process of work were registered.
 
-## My functions 
+### My functions 
 I created functions for more convenient work with the database. This function demonstrates inserting data into a database.
 ```PHP
 function insertData($data, $table){
@@ -79,7 +81,8 @@ function dataFromDb($sql){
     return $res;
 }
 ```
-
+A file with these and other functions, as well as a config.php file, is added to the top of every page on the site.
+### Realization
 ## Publication
 The site was transferred to the hosting along with the database. Link: http://u99924i2.beget.tech
 
