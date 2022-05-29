@@ -8,5 +8,8 @@ If an employee of the studio visits the site, then the "management" menu item ap
 If an ordinary employee enters the page, then only the "Work on orders" item will be available to him in the window. There you can change the current status of all received orders. If the head of the studio comes in, "Studio Management" and "Service Editing" become open. He can change information about the services and the studio, add new employees, change their positions and exclude them from the studio. If the administrator is logged in - the person who owns the entire site - then the item "Administration of studios" appears. The creation of new studios is available there, as well as the change of leaders.
 
 MySql database was designed to create the site.
+
+<img src="http://u99924i2.beget.tech/img/db.png">
+
 Of the development features, one can note the writing of a separate file in PHP, where all sorts of useful functions that I used in the process of work were registered. They have simplified the job of creating a website.
 The site was transferred to the hosting along with the database. The link to the site will be in the description.
