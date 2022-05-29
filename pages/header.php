@@ -16,7 +16,7 @@ include 'fun.php';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
 
-    <title>Assist</title>
+    <title>Flicker</title>
 </head>
 <body>
 
@@ -24,7 +24,7 @@ include 'fun.php';
     <div class="conteiner">
         <div class="header_body">
             <a href="#" class="header_logo">
-                <h1>Assist</h1>
+                <h1>Flicker</h1>
             </a>
 <!--             <div class="header_burger">
                 <span></span>
