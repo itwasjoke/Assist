@@ -16,8 +16,8 @@ if (exist_data('new_info')){
 $sql_studio="SELECT * FROM studios s where s.id=".$studio_id;
 $studio=dataFromDb($sql_studio);
 $s_data=array();
-foreach ($studio as $fuck) {
-    foreach ($fuck as $key => $value) {
+foreach ($studio as $fuc) {
+    foreach ($fuc as $key => $value) {
         $s_data[$key]=$value;
     }
 }
