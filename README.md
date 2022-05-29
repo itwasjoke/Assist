@@ -1,6 +1,6 @@
 # Flicker
 This is a site created using server-side programming.
-<p style="text-align: center">
+<p align="center">
 <img align="center" src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot1.png?raw=true" style="width: 60%; padding: 15px">
 </p>
 
