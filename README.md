@@ -59,6 +59,26 @@ function insertData($data, $table){
     $in=mysqli_query($GLOBALS['con'], $sql);
 }
 ```
+Also implemented functions for convenient getting of general data.
+```PHP
+function get_user_info($user_id){
+    $sql="SELECT * FROM users u where u.id=".$user_id;
+    $res=mysqli_query($GLOBALS['con'], $sql);
+    $user=array();
+    foreach ($res as $key1 => $value1) {
+        foreach ($value1 as $key => $value) {
+            $user[$key]=$value;
+        }
+        break;
+    }
+    return $user;
+}
+
+function dataFromDb($sql){
+    $res=mysqli_query($GLOBALS['con'], $sql);
+    return $res;
+}
+```
 
 ## Publication
 The site was transferred to the hosting along with the database. Link: http://u99924i2.beget.tech
