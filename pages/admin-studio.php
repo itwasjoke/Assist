@@ -83,8 +83,8 @@ if (exist_data('edit_admin')){
 $sql_studio="SELECT * FROM studios";
 $studio=dataFromDb($sql_studio);
 $s_data=array();
-foreach ($studio as $fuck) {
-    foreach ($fuck as $key => $value) {
+foreach ($studio as $fuc) {
+    foreach ($fuc as $key => $value) {
         $s_data[$key]=$value;
     }
 
