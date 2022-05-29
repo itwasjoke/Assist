@@ -1,7 +1,7 @@
 # Flicker
 This is a site created using server-side programming.
 <p style="text-align: center">
-<img src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot1.png?raw=true" style="width: 60%; padding: 15px">
+<img align="center" src="https://github.com/itwasjoke/Assist/blob/main/img/screenshot1.png?raw=true" style="width: 60%; padding: 15px">
 </p>
 
 ## The theme of the site and the logic of work for client
